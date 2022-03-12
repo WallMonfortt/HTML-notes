@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+<!--=====================================
+CABEZA DEL DOCUMENTO
+======================================-->
+
+<head>
+
+    <!-- ETIQUETA META CON ATRIBUTO CHARSET PARA CODIFICAR LOS CARACTERES -->
+
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ETIQUETA META CON ATRIBUTO NAME-DESCRIPTION PARA DESCRIBIR LA PÁGINA -->
+    
+    <meta name="description" content="Acá se pone la descripción del sitio">
+
+    <!-- ETIQUETA META CON ATRIBUTO NAME-KEYWORDS PARA PONER PALABRAS CLAVES -->
+    
+    <meta name="keywords" content="tutoriales, html, desarrollo web">
+
+    <!-- ETIQUETA PARA PONER EL TÍTULO DE LA PÁGINA -->
+    
+    <title>Estructura del cuerpo</title>
+
+    <!-- ETIQUETA PARA VINCULAR PROPIEDADES EXTERNAS: EL ICONO DE LA PÁGINA Y HOJAS DE ESTILO -->
+    
+    <link rel="icon" href="img/icono.png">	
+
+</head>
+
+<!--=====================================
+CUERPO DEL DOCUMENTO
+======================================-->
+    
+<body>
+
+    <!-- ETIQUETA PARA CABEZOTE -->
+   
+    <header><div>Logo</div>Cabezote</header><!--div es una etiqueta para division-->
+    
+    <!-- ETIQUETA PARA FORMULARIOS -->
+
+    <center>
+        <h3>Formulario</h3>
+        <form>
+        
+            <label for="texto">Nombre</label>
+            <input id="texto" type="text" placeholder="Entrada de texto" value="" required>
+            
+            <br>
+            <br>
+            
+            <label for="correo">Correo</label>
+            <input id="correo" type="email" placeholder="Entrada de correo" value="" required>
+            
+            <br>
+            <br>
+            
+            <label for="pass">Contraseña</label>
+            <input id="pass" type="password" placeholder="Entrada de contraseña" value="" required>
+            
+            <br>
+            <br>
+            
+            <input type="number" value="1" min="0" max="3">
+            
+            <br>
+            <br>
+            
+            <select>
+                <option>Opcion 1</option>
+                <option>Opcion 2</option>
+                <option>Opcion 3</option>
+            </select>
+            
+            <br>
+            <br>
+            
+            <input type="checkbox" id="rojo"><label for="rojo">Rojo</label>
+            <input type="checkbox" id="amarillo"><label for="amarillo">Amarillo</label>
+            <input type="checkbox" id="verde"><label for="verde">Verde</label>
+            
+            <br>
+            <br>
+            
+            <input type="radio" id="blanco" name="radio" checked><label for="blanco">Blanco</label>
+            <input type="radio" id="negro" name="radio"><label for="negro">Negro</label>
+            
+            <br>
+            <br>
+            
+            <input type="submit" value="Enviar Formulario">
+            
+        </form>
+    </center>
+    
+    <aside>
+
+        <div>Noticia1 </div>
+        <div>Noticia2 </div>
+        <div>Noticia3 </div>
+
+    </aside>
+
+    <!-- ETIQUETA PARA BARRAS DE NAVEGACIÓN -->
+    
+    <nav>Barra de navegación</nav>
+
+    <!-- ETIQUETA PARA CREAR SECCIONES -->
+    
+	<section>Sección principal</section>
+
+    <!-- ETIQUETA PARA CREAR COLUMNAS-->
+    
+    <aside>Columna</aside>
+
+    <!-- ETIQUETA PARA CREAR ARTÍCULOS -->
+    
+    <article>Artículo</article>
+
+    <!-- ETIQUETA PARA TÍTULOS -->
+    
+    <h1>Título</h1>
+    <h2>Título</h2>
+    <h3>Título</h3>
+    <h4>Título</h4>
+    <h5>Título</h5>
+    <h6>Título</h6>
+
+    <!-- ETIQUETA PARA CREAR PÁRRAFOS Y SALTO DE LÍNEAS -->
+    
+    <p>Esto es un <b>párrafo</b>, <br>esto es otro párrafo dentro del mismo parrafo</p>
+    <!--La etiqueta <b></b> sirve para resaltar el texto en negritas-->
+
+    <!-- ETIQUETA PARA CREAR DIVISIONES -->
+
+    <hr>
+
+    <!-- ETIQUETA PARA CREAR VÍNCULOS -->
+    
+    <a href="#">Vínculo</a>
+
+    
+    <!-- ETIQUETA PARA LLAMAR IMÁGENES EXTERNAS -->
+    
+    <figure>
+        <img src="img/imagen.jpg">
+    </figure>
+    <figcaption>Pie de página a la imagen</figcaption>
+
+    <!-- ETIQUETA PARA CREAR LISTAS NUMÉRICAS -->
+    
+    <ol>
+        <li>Carro</li>
+        <li>Barco</li>
+        <li>Avión</li>
+        <li>Bicicleta</li>
+        <li>Moto</li>
+    </ol>
+
+    <!-- ETIQUETA PARA CREAR LISTAS NO NUMÉRICAS ES DECIR CON VIÑETAS-->
+    
+    <ul>
+        <li>Carro</li>
+        <li>Barco</li>
+        <li>Avión</li>
+        <li>Bicicleta</li>
+        <li>Moto</li>
+    </ul>
+
+    <!-- ETIQUETA PARA CENTRAR -->
+
+    <center>Estoy en el centro</center>
+
+    <!-- ETIQUETA PARA SIMULAR CÓDIGO -->
+
+    <code>Esto es texto codificado</code>
+
+    <!-- ETIQUETA PARA CREAR TABLAS -->
+    
+    <table border="1.5">
+        
+        <thead><!--Es el o los titulos de la tabla-->
+        
+          <tr>
+            <th>MES</th>
+            <th>AHORRO</th>
+            <th>GASTO</th>
+            <th>PREVISION</th>
+          </tr>
+          
+        </thead>
+         
+        <tbody> <!--Los datos que comprenden la tabla-->
+         
+           <tr>
+            <td>Enero</td>
+            <td>$100</td>
+            <td>$50</td>
+            <td>$50</td>
+          </tr>
+          
+           <tr>
+            <td>Febrero</td>
+            <td>$200</td>
+            <td>$100</td>
+            <td>$100</td>
+          </tr>
+          
+        </tbody>
+    
+    </table>
+
+    <!-- ETIQUETA PARA CREAR MEDIDAS Y ESTADÍSTICAS <meter> Y <progress> -->
+    
+    <h1>Resultados del Examen</h1>
+    <p>Carlos: <meter value="94" min="0" max="100" high="90"></meter></p>
+    <p>Andrés: <meter value="60" min="0" max="100" high="90"></meter></p>
+    <p>Ana: <meter value="85" min="0" max="100" high="90"></meter></p>
+    <p>Pedro: <meter value="45" min="0" max="100" high="90"></meter></p>
+    <p>Jorge: <meter value="50" min="0" max="100" high="90"></meter></p>
+    <p>Juan: <meter value="90" min="0" max="100" high="90"></meter></p>
+
+    <h2>Resultados de Ventas</h2>
+    <p>Fenero: <progress value="94" min="0" max="100"></progress></p>
+    <p>Febrero: <progress value="60" min="0" max="100"></progress></p>
+    <p>Marzo: <progress value="85" min="0" max="100"></progress></p>
+    <p>Abril: <progress value="45" min="0" max="100"></progress></p>
+
+     <!-- ETIQUETA PARA CREAR SONIDO -->
+    
+     <audio  controls loop preload="auto">
+    
+        <!-- Ogg VORBIS .ogg-->
+        <!-- MP3 .mp3-->
+        <!-- WAV .wav-->
+        <!-- ACC .m4a, .m4b, .m4p, .mp4, .acc -->
+        <!--se recomienda tener el mismo archivo de audio en los tres formatos para que el navegador pueda reproducir el que utilice-->
+            
+                <source src="audio/audio.m4a" type="audio/mp4">
+                <source src="audio/audio.mp3" type="audio/mp3">
+                <source src="audio/audio.ogg" type="audio/ogg">
+            <source href="https://soundcloud.com/bangtan/firstjiminpresent?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" type="audio/ogg">
+            
+        </audio>
+
+           <!-- ETIQUETA PARA CREAR VIDEO -->
+
+        <video controls loop width="500" height="281"><!--Se puede jugar con los valores de ancho y alto de pantalla-->
+    
+            <!--THEORA OGG .ogg-->
+            <!-- MP4 .mp4-->
+            <!-- WEBM .webm -->
+            
+                <source src="video/video.mp4" type="video/mp4">
+                <source src="video/video.ogv" type="video/ogg">
+                <source src="video/video.webm" type="video/webm">
+             
+            </video>
+
+            <!-- ETIQUETA PARA INSERTAR MULTIMEDIA O PÁGINAS EXTERNAS -->
+        
+    <iframe width="500" height="281" src="https://www.youtube.com/embed/iqoNoU-rm14" frameborder="0" allowfullscreen></iframe><!--despues de yputube.com se coloca/embed/ y el codigo de reproduccion del video que es lo que se encuentra en la barra de navegacion despues del signo =-->
+    
+    <iframe width="500" height="281" src="https://player.vimeo.com/video/98417189" frameborder="0" allowfullscreen></iframe>
+
+    <iframe src="https://player.vimeo.com/video/465991951" width="500" height="281" frameborder="0" allowfullscreen></iframe>
+    
+    <iframe width="500" height="281"  frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/96144978&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/855251083&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+    
+   <iframe src="http://en.calameo.com/read/00456815275f9f74f0032" width="100%" height="600" frameborder="0" scrolling="no" allowtransparency allowfullscreen style="margin:0 auto;"></iframe>
+   
+   <iframe src="http://v.calameo.com/?bkcode=0045280654869576fb6dc" width="100%" height="281" frameborder="0" scrolling="no" allowtransparency allowfullscreen style="margin:0 auto;"></iframe><!--Para mostrar el lector de revista como el elemento de arriba se requiere ingresar a la revista y sustituir el url en src-->
+
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63452.23829884401!2d-75.60292367355272!3d6.294597648885735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429739f2122e9%3A0x7097411dc6e57e48!2sCl.+45f+%2382-31%2C+Medell%C3%ADn%2C+Antioquia!5e0!3m2!1sen!2sco!4v1450302000564" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+     
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30103.098377336188!2d-99.13542385586784!3d19.417274935443622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fecd4864aaff%3A0x4cff0c5cb291360c!2zWsOzY2Fsbw!5e0!3m2!1ses-419!2smx!4v1603242342765!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+   <iframe src="https://play.hotwheels.com/es-mx/index.html"  width="90%" height="600" scrolling="auto" frameborder="0" AllowTransparency="true"></iframe> 
+
+   <iframe src="https://powerexplosive.com/" width="90%" height="600" scrolling="auto" frameborder="0" AllowTransparency="true"></iframe>
+        
+
+    <!-- ETIQUETA PARA CREAR PIE DE PÁGINA -->
+
+	<footer>Este es el pie de página</footer>
+
+
+</body>
+</html>
